@@ -123,7 +123,7 @@ def cli(spec, env, url, http_options):
         finally:
             f.close()
     else:
-        spec = "https://github.com/OAI/OpenAPI-Specification/blob/master/examples/v2.0/yaml/api-with-examples.yaml"
+        spec = "https://redfish.dmtf.org/schemas/openapi.yaml"
         click.echo("Loading current Redfish OpenAPI schema from '%s' by default; use --spec option on launch if needed to override" %
                    spec)
         f = urlopen(spec)
