@@ -10,7 +10,6 @@ Documentation below is the same as that of http-prompt and does not yet include 
 HTTP Prompt is an interactive command-line HTTP client featuring autocomplete
 and syntax highlighting, built on HTTPie_ and prompt_toolkit_.
 
-|Asciinema|
 
 
 Links
